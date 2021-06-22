@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poema2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="56dp"
+        android:text="Poema a la Patria"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="271dp"
+        android:layout_height="262dp"
+        android:text="Ante el recuerdo bendito de aquella noche sagrada en que la patria aherrojada rompió al fin su esclavitud; ante la dulce memoria de aquella hora y de aquel día, yo siento que en el alma mía canta algo como un laúd."
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="282dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/quetzal"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <Button
+        android:id="@+id/Regresar2"
+        android:layout_width="184dp"
+        android:layout_height="57dp"
+        android:text="Regresar Menu"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="637dp"
+        android:onClick="Regresar2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

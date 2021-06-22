@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Nombre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poema1">
+
+
+    public void OnClick1(View view) {
+    Intent intent = new Intent( this,activity_poema1.class);
+    startActivity(intent);
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:text="Poema a la Bandera"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="305dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/quetzal"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/Nombre1"
+        android:layout_width="310dp"
+        android:layout_height="250dp"
+        android:text=" Esta piedad profunda es tierra mía. Aquí, si avanzo, lo que toco es patria: presencia donde siento a cada instante el acuerdo del cuerpo con el alma.  Esta voz es mi voz. Pero la escucho en bocas diferentes. Y aunque nada de cuanto dice pueda sorprenderme, oírla me cautiva porque canta en ella un corazón siempre distinto que nos lo explica todo sin palabras."
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/Poema1"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="656dp"
+        android:onClick="Regresar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
